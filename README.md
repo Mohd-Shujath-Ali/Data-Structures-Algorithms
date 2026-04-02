@@ -16,7 +16,7 @@ This repo is my effort to:
 
 ## 🎯 Goals
 
-* ✅  core DSA concepts deeply
+* ✅ Master core DSA concepts deeply
 * ✅ Learn multiple approaches (Brute → Better → Optimal)
 * ✅ Solve problems from:
 
