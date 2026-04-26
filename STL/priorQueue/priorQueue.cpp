@@ -22,7 +22,7 @@ void display(priority_queue<int, vector<int>, greater<int>> pq)
     while (!pq.empty())
     {
         cout << pq.top() << " ";
-        pq.pop();
+        pq.pop(); // pop happens in O(n)
     }
     cout << '\n';
 }
@@ -40,7 +40,7 @@ int main()
     {
         int element;
         cin >> element;
-        pq.push(element);
+        pq.push(element); // It happends in log(n)
     }
 
     display(pq, n);
